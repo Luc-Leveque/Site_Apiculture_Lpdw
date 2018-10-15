@@ -12,6 +12,10 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  *  fields={"email"}, 
  *  message="L'email que vous avez indiqué est déja utilisé !"
  * )
+ * @UniqueEntity(
+ * fields={"username"},
+ * message="Le pseudo que vous avez indiqué est déja utilisé !"
+ * )
  */
 class User implements UserInterface
 {
@@ -30,6 +34,10 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\Regex(
+     * pattern = "/^[a-zA-Z0-9\-\_]+$/",
+     * message = "Votre pseudo n'est pas conforme"
+     * )
      */
     private $username;
 
