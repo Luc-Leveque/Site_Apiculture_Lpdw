@@ -1047,6 +1047,6 @@ $context["log"], "priorityName", array()) == "WARNING")) ? ("status-warning") : 
         {% endif %}
     {% endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/logger.html.twig", "/Users/raphaelgoncalves/Documents/GitHub/Site_Appiculture_Lpdw/docker-symfony/symfony/vendor/symfony/web-profiler-bundle/Resources/views/Collector/logger.html.twig");
+", "@WebProfiler/Collector/logger.html.twig", "/Users/Luc/Documents/GitHub/Site_appiculture/vendor/symfony/web-profiler-bundle/Resources/views/Collector/logger.html.twig");
     }
 }

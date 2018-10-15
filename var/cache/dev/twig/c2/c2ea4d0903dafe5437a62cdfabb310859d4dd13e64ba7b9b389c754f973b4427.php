@@ -190,6 +190,6 @@ class __TwigTemplate_d56325cfde31257cfe05e1b88991e993afd526a84961af3b2ec86633d72
         })|raw }}
     </div>
 {% endif %}
-", "@Twig/Exception/trace.html.twig", "/Users/raphaelgoncalves/Documents/GitHub/Site_Appiculture_Lpdw/docker-symfony/symfony/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
+", "@Twig/Exception/trace.html.twig", "/Users/Luc/Documents/GitHub/Site_appiculture/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
     }
 }

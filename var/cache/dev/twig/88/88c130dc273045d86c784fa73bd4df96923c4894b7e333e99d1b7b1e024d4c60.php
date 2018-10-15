@@ -173,6 +173,6 @@ class __TwigTemplate_284cb8e900407d9539b69c23a0af680db23fa75d08b140736d930e9b579
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "/Users/raphaelgoncalves/Documents/GitHub/Site_Appiculture_Lpdw/docker-symfony/symfony/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "/Users/Luc/Documents/GitHub/Site_appiculture/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
     }
 }
