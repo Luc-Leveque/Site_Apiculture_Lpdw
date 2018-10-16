@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Documentation{% endblock %}
+
+{% block body %}
+
+
+<div class="col-sm-8 col-offset-2">
+    <div class="row">
+        <p>Infos générales</p>
+    </div>
+    <div class="row">
+        <a class="btn btn-info" href="{{ path('documentation_history')}}">Historique</a>
+        <a class="btn btn-info" href="{{ path('documentation_bees')}}">Abeilles</a>
+        <a class="btn btn-info" href="{{ path('documentation_hive')}}">Ruche</a>
+        <a class="btn btn-info" href="{{ path('documentation_products')}}">Produits de la ruche</a>
+    </div>
+</div>
+
+{% endblock %}
